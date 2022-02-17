@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+	padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.bg-secondary .navbar .container-fluid .collapse ul li a.nav-link:hover {
+    background-color: gray;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.bg-secondary .navbar .container-fluid .collapse ul li a.nav-link {
+	font-size: 18px;
+    color: #000;
+    border-radius: 5px;
+    font-weight: 700;
+} 
+
+.bg-secondary .navbar .container-fluid .d-flex .navbar-nav .dropdown a.dropdown-toggle {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.bg-secondary .navbar .container-fluid .d-flex .navbar-nav .dropdown-menu a:hover {
+	background-color: gray;
+    color: #FFF;
+    border-radius: 5px;
+}
