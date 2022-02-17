@@ -3,7 +3,7 @@ school management in spring
 This project was created after learning the fundamentals of Spring MVC with Hibernate and originally created by: Herman Redona
 
 
-The complete ource code for the project is available.
+The complete source code for the project is available.
 
 1. SQL Scripts
 The SQL scripts are location in the directory: sql-scripts
@@ -14,8 +14,8 @@ run this script first before running the java project.
 
 2. Data source configuration
 The project the data source configurations in the config file: spring-mvc-crud-demo-servlet. 
-This file defines two datasources. One datasource for customerDataSource and another for employeeDataSource. 
-For each datasource defined, you need to add
+This file define one datasource. 
+For datasource defined, you need to add
 - session factory
 - transaction manager
 - tx:annotation driven
